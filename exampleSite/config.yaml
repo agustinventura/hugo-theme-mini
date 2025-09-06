@@ -88,3 +88,6 @@ params:
     ## e.g.
     # - js/custom.js # local js in `static/js/custom.js`
     # - https://example.com/custom.js # remote js
+  
+  # You can add tracking with metricool besides Google
+  metricoolHash: your-metricool-hash

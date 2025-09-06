@@ -28,6 +28,10 @@
   {{ template "_internal/google_analytics.html" . }}
 {{ end }}
 
+{{ if .Site.Params.metricoolHash }}
+  {{ partial "partial_analytics.html" . }}
+{{end}}
+
 {{ if or .Params.math .Site.Params.math }}
   {{ partial "math.html" . }}
 {{ end }}
