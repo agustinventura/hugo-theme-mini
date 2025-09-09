@@ -16,7 +16,8 @@ permalinks:
 paginate: 3
 
 googleAnalytics: your-google-analytics-id
-disqusShortname: your-disqus-shortname
+# Old disqus configuration, superseded by services.disqus.shortname
+#disqusShortname: your-disqus-shortname
 
 # Hugo Configure Markup
 # More info: https://gohugo.io/getting-started/configuration-markup#
@@ -91,3 +92,7 @@ params:
   
   # You can add tracking with metricool besides Google
   metricoolHash: your-metricool-hash
+
+services:
+  disqus:
+    shortname: your-disqus-shortname
